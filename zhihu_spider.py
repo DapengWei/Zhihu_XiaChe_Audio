@@ -51,7 +51,7 @@ def get_content(content_id):
 
 
 def main():
-    test_list = get_list("http://zhihudaily.ahorn.me/api/1")
+    test_list = get_today_list("http://zhihudaily.ahorn.me/api/1")
     for i in test_list:
         print i
 
